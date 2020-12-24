@@ -13,4 +13,13 @@ const UserList = () => {
   return null
 }
 
+// Use class component
+/*
+class UserList extends React.Component {
+  render() {
+    return null
+  }
+}
+*/
+
 export { UserList }
