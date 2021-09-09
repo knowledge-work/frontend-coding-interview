@@ -4,22 +4,14 @@ import React from 'react'
 import { users } from '../../data/users'
 import { getUsers } from '../../data/getUsers'
 
-// Use CSS Modules
+// CSS Modulesを使う場合はこちら
 import styles from './UserList.module.css'
-// Use Styled-Components
+// styled-componentsを使う場合はこちら
 import styled from 'styled-components'
+// その他のCSS in JSを使いたい場合はインストールして使ってください！
 
 const UserList = () => {
-  return null
+  return <>Hello world!</>
 }
-
-// Use class component
-/*
-class UserList extends React.Component {
-  render() {
-    return null
-  }
-}
-*/
 
 export { UserList }
