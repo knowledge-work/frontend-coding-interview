@@ -11,7 +11,7 @@ import styled from 'styled-components'
 // その他のCSS in JSを使いたい場合はインストールして使ってください！
 
 const UserList = () => {
-  return <>Hello world!</>
+  return <>TODO: ユーザーリストの実装</>
 }
 
 export { UserList }
