@@ -1,4 +1,8 @@
-# Getting Started
+# frontend-coding-interview
+
+This repository is public.
+
+## Getting Started
 
 ```
 $ npm install
