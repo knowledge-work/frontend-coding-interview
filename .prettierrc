@@ -1,5 +1,11 @@
-printWidth: 100
-singleQuote: true
-trailingComma: all
-semi: false
-parser: typescript
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "embeddedLanguageFormatting": "auto",
+  "htmlWhitespaceSensitivity": "css",
+  "printWidth": 100,
+  "semi": false,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "all"
+}
