@@ -1,0 +1,18 @@
+.wrapper {
+  padding: 24px;
+}
+
+.header {
+  margin-bottom: 24px;
+}
+
+.buttonWrapper {
+  margin-top: 24px;
+}
+
+.button {
+  background-color: #333;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
