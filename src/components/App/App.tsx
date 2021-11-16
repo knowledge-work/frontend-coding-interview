@@ -2,9 +2,9 @@ import { UserList } from '../UserList/UserList'
 
 import styles from './App.module.css'
 
-function App() {
+const App = () => {
   return (
-    <div className={styles.wrapper}>
+    <form className={styles.wrapper}>
       <h2 className={styles.header}>友達リクエストの送信先を選択してください</h2>
 
       <UserList />
@@ -14,8 +14,8 @@ function App() {
           送信
         </button>
       </div>
-    </div>
+    </form>
   )
 }
 
-export default App
+export { App }

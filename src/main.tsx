@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 
 import 'ress'
 
-import App from './components/App/App'
+import { App } from './components/App/App'
 
 ReactDOM.render(
   <React.StrictMode>
