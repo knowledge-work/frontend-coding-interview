@@ -1,0 +1,8 @@
+{
+  "github.copilot.enable": {
+    "typescript": false,
+    "typescriptreact": false,
+    "css": false
+  },
+  "github.copilot.inlineSuggest.enable": false
+}
