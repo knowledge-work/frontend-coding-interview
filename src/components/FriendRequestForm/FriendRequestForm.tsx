@@ -1,8 +1,8 @@
 import { UserList } from '../UserList/UserList'
 
-import styles from './App.module.css'
+import styles from './FriendRequestForm.module.css'
 
-const App = () => {
+const FriendRequestForm = () => {
   return (
     <form className={styles.wrapper}>
       <h2 className={styles.header}>友達リクエストの送信先を選択してください</h2>
@@ -18,4 +18,4 @@ const App = () => {
   )
 }
 
-export { App }
+export { FriendRequestForm }
