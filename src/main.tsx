@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom'
 
 import 'ress'
 
-import { App } from './components/App/App'
+import { FriendRequestForm } from './components/FriendRequestForm/FriendRequestForm'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <FriendRequestForm />
   </React.StrictMode>,
   document.getElementById('root'),
 )
