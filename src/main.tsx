@@ -1,13 +1,12 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 
 import 'ress'
 
 import { FriendRequestForm } from './components/FriendRequestForm/FriendRequestForm'
 
-ReactDOM.render(
+ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <FriendRequestForm />
   </React.StrictMode>,
-  document.getElementById('root'),
 )
