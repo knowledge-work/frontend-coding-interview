@@ -1,0 +1,28 @@
+.user_list_item {
+    display: flex;
+}
+
+.usr_icon, .usr_icon_wrapper {
+    height: 60px;
+    width: 60px;
+}
+
+.usr_icon_wrapper {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+.usr_info_wrapper {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+
+.usr_name {
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+}
+

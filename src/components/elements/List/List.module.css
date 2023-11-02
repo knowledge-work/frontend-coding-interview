@@ -1,0 +1,14 @@
+.list_item {
+    padding: 0.5rem;
+}
+
+.clickable {
+    &:hover {
+        background-color: #ccc; // TODO: カラー調整
+        cursor: pointer;
+    }
+}
+
+.selected {
+    background-color: indianred; // TODO: カラー調整
+}

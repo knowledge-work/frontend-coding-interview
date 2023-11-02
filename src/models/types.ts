@@ -1,0 +1,1 @@
+declare type Id<T extends string> = string & { readonly __type: T };
