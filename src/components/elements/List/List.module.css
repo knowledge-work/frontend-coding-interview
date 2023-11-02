@@ -4,11 +4,11 @@
 
 .clickable {
     &:hover {
-        background-color: #ccc; // TODO: カラー調整
+        background-color: #ccc;
         cursor: pointer;
     }
 }
 
 .selected {
-    background-color: indianred; // TODO: カラー調整
+    background-color: indianred;
 }
