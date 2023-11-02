@@ -5,7 +5,7 @@ import { List } from '@/components/elements/List/List'
 import { getUsers } from '@/data/getUsers'
 import { User } from '@/models/user/type'
 import { useEffect, useState } from 'react'
-import styles from './UserList.module.css'
+import styles from './UserList.module.scss'
 
 // CSS Modules
 

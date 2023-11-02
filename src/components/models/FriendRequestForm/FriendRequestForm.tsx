@@ -1,6 +1,6 @@
 import { UserList } from '../UserList/UserList'
 
-import styles from './FriendRequestForm.module.css'
+import styles from './FriendRequestForm.module.scss'
 
 const FriendRequestForm = () => {
   return (

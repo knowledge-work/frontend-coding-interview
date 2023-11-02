@@ -1,5 +1,5 @@
 import { PropsWithChildren } from 'react'
-import styles from './List.module.css'
+import styles from './List.module.scss'
 
 export function ListItem<T>({
   children,
