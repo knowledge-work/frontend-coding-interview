@@ -1,5 +1,5 @@
-import { UserList } from '../UserList/UserList'
 
+import { UserList } from 'src/components/UserList/UserList'
 import styles from './FriendRequestForm.module.css'
 
 const FriendRequestForm = () => {

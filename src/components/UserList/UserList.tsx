@@ -1,6 +1,6 @@
 // Data Source
 import { users } from '../../data/users'
-import { getUsers } from '../../data/getUsers'
+import { getUsers } from 'src/data/getUsers'
 
 // CSS Modules
 import styles from './UserList.module.css'
