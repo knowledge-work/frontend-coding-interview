@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 
 import 'ress'
 
-import { FriendRequestForm } from './components/FriendRequestForm/FriendRequestForm'
+import { FriendRequestForm } from 'src/components/FriendRequestForm/FriendRequestForm'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
