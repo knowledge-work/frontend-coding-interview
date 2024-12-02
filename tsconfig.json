@@ -18,10 +18,7 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "allowSyntheticDefaultImports": true,
-    "noFallthroughCasesInSwitch": true,
-    "paths": {
-      "src/*": ["./src/*"], 
-    }
+    "noFallthroughCasesInSwitch": true
   },
   "exclude": ["node_modules"],
   "include": ["**/*.ts", "**/*.tsx"]
