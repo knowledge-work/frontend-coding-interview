@@ -2,7 +2,13 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["local>knowledge-work/renovate-config"],
   "packageRules": [
-    { "depTypeList": ["dependencies"], "groupName": "dependencies" },
-    { "depTypeList": ["devDependencies"], "groupName": "devDependencies" }
+    {
+      "matchDepTypes": ["dependencies"],
+      "groupName": "dependencies"
+    },
+    {
+      "matchDepTypes": ["devDependencies"],
+      "groupName": "devDependencies"
+    }
   ]
 }
