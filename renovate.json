@@ -1,7 +1,25 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["local>knowledge-work/renovate-config"],
+  "extends": ["config:best-practices", ":disableRateLimiting"],
+  "description": [
+    "社内の共通 preset（knowledge-work/renovate-config）のうち、この repo に効く設定を直接書いている。",
+    "security:minimumReleaseAgeNpm は npm にだけ 3 日の packageRule を足し、下の 7 日より後から効くので外す"
+  ],
+  "ignorePresets": ["security:minimumReleaseAgeNpm"],
+  "timezone": "Asia/Tokyo",
+  "minimumReleaseAge": "7 days",
+  "internalChecksFilter": "strict",
+  "commitMessagePrefix": ":arrow_up:",
+  "labels": ["renovate"],
+  "vulnerabilityAlerts": {
+    "enabled": true
+  },
   "packageRules": [
+    {
+      "description": "リリース日を持たず minimumReleaseAge を確かめられない更新の種類は、待たずに PR を作る",
+      "matchUpdateTypes": ["replacement", "pin"],
+      "minimumReleaseAge": null
+    },
     {
       "matchDepTypes": ["dependencies"],
       "groupName": "dependencies"
