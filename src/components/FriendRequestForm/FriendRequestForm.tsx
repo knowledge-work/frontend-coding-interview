@@ -1,5 +1,5 @@
-import { UserList } from '../UserList/UserList'
-import styles from './FriendRequestForm.module.css'
+import { UserList } from "../UserList/UserList";
+import styles from "./FriendRequestForm.module.css";
 
 export const FriendRequestForm = () => {
   return (
@@ -14,5 +14,5 @@ export const FriendRequestForm = () => {
         </button>
       </div>
     </form>
-  )
-}
+  );
+};
