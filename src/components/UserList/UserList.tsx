@@ -1,12 +1,12 @@
 // Data Source
-import { users } from '../../data/users'
-import { getUsers } from '../../data/getUsers'
+import { users } from "../../data/users";
+import { getUsers } from "../../data/getUsers";
 
 // CSS Modules
-import styles from './UserList.module.css'
+import styles from "./UserList.module.css";
 // styled-components
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const UserList = () => {
-  return <>TODO: ユーザーリストの実装</>
-}
+  return <>TODO: ユーザーリストの実装</>;
+};
